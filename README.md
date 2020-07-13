@@ -24,6 +24,13 @@ $ cd AvaTax-REST-V2-Python-SDK
 ```
 AvaTax-REST-V2-Python-SDK $ python3 -m venv ENV
 AvaTax-REST-V2-Python-SDK $ source ENV/bin/activate
+
+# Windows users. More Information available here: https://docs.python.org/3/library/venv.html
+PS <user>\AvaTax-REST-V2-Python-SDK> python3 -m venv ENV
+# Enable the Activate.ps1 script. One-time only command.
+PS <user>\AvaTax-REST-V2-Python-SDK> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+# Activate the environment
+PS <user>\AvaTax-REST-V2-Python-SDK> ENV\Scripts\Activate.ps1
 ```
 4. [pip](https://pip.pypa.io/en/stable) install this package as well as the testing set of extras into your virtual enviroment.
 ```
